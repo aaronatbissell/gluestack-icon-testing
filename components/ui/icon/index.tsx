@@ -28,6 +28,7 @@ const iconStyle = tva({
       md: "h-[18px] w-[18px]",
       lg: "h-5 w-5",
       xl: "h-6 w-6",
+      big: "h-20 w-20",
     },
   },
 });
@@ -139,28 +140,6 @@ const AddIcon = createIcon({
 AddIcon.displayName = "AddIcon";
 export { AddIcon };
 
-// BISSELL Icons
-const DiscountTagIcon = createIcon({
-  Root: Svg,
-  viewBox: "0 0 82 29",
-  path: (
-    <>
-      <Path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M8.33789 0.45166C3.91961 0.45166 0.337891 4.03338 0.337891 8.45166V20.4517C0.337891 24.8699 3.91961 28.4517 8.33789 28.4517H68.2779L80.6262 15.8515C81.3883 15.0739 81.3883 13.8295 80.6262 13.0518L68.2779 0.45166H8.33789ZM63.8345 16.6865C65.3891 16.6865 66.6494 15.4262 66.6494 13.8716C66.6494 12.3169 65.3891 11.0566 63.8345 11.0566C62.2798 11.0566 61.0195 12.3169 61.0195 13.8716C61.0195 15.4262 62.2798 16.6865 63.8345 16.6865Z"
-        // fill="currentColor"
-        // stroke="currentColor"
-        strokeWidth="6"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </>
-  ),
-});
-DiscountTagIcon.displayName = "DiscountTagIcon";
-export { DiscountTagIcon };
-
 const GluestackIcon = createIcon({
   Root: Svg,
   viewBox: "0 0 32 32",
@@ -168,19 +147,19 @@ const GluestackIcon = createIcon({
     <>
       <Path
         d="M9.5 14.6642L15.9999 9.87633V12.1358L9.5 16.9236V14.6642Z"
-        fill="white"
+        fill="currentColor"
       />
       <Path
         d="M22.5 14.6642L16.0001 9.87639V12.1359L22.5 16.9237V14.6642Z"
-        fill="white"
+        fill="currentColor"
       />
       <Path
         d="M9.5 19.8641L15.9999 15.0763V17.3358L9.5 22.1236V19.8641Z"
-        fill="white"
+        fill="currentColor"
       />
       <Path
         d="M22.5 19.8642L16.0001 15.0764V17.3358L22.5 22.1237V19.8642Z"
-        fill="white"
+        fill="currentColor"
       />
     </>
   ),
